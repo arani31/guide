@@ -15,27 +15,23 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
 
-
-
-  //  @SuppressLint("WrongViewCast")
+    //  @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
 
-
-         TextView mTextView =findViewById(R.id.textView);
+        TextView mTextView = findViewById(R.id.textView);
         ImageView myImageView = (ImageView) findViewById(R.id.imageView);
-                myImageView.setImageResource(R.drawable.presentation);
-        Button mButton= findViewById(R.id.button);
+        myImageView.setImageResource(R.drawable.presentation);
+        Button mButton = findViewById(R.id.button);
 
-        mButton.setOnClickListener( new View.OnClickListener(){
+        mButton.setOnClickListener(new View.OnClickListener() {
             @Override
-                    public void onClick(View view)
-             {
-                 Intent intent = new Intent(MainActivity.this,page2.class);
-                 startActivity(intent);
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, page2.class);
+                startActivity(intent);
             }
         });
     }
