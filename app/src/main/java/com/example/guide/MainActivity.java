@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
                     public void onClick(View view)
              {
-                 Intent intent = new Intent(MainActivity.this,Page2.class);
+                 Intent intent = new Intent(MainActivity.this,page2.class);
                  startActivity(intent);
             }
         });
