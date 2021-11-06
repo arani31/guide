@@ -6,31 +6,56 @@
     android:layout_height="match_parent"
     tools:context=".Cuisine">
 
+    <ImageButton
+        android:id="@+id/recette"
+        android:layout_width="309dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintHorizontal_bias="0.598"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cuisine"
+        tools:ignore="SpeakableTextPresentCheck" />
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/restuarant"
+        android:layout_width="319dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="260dp"
+        app:layout_constraintHorizontal_bias="0.663"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/restaurant"
+        tools:ignore="SpeakableTextPresentCheck" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="324dp"
+        android:text="Recette"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="390dp"
-                android:layout_height="712dp"
-                android:text="En cette fin d’après-midi de septembre, un arc-en-ciel s’étire dans le ciel orageux, au-dessus des toits gris de Paris. Depuis la terrasse du bâtiment Eole, inauguré il y a deux ans, l’hôpital de la Pitié-Salpêtrière a des airs de carte postale. Des jardins arborés d’où émergent le dôme d’une magnifique chapelle, des édifices classés du XVIIe siècle et, à l’horizon, le Sacré-Cœur et le Panthéon. Depuis ce vaisseau amiral de la médecine française, on aperçoit aussi les livres ouverts de la bibliothèque François-Mitterrand et les nouvelles tours Duo, de l’architecte Jean Nouvel, qui dominent le 13e arrondissement.Plus grand hôpital d’Europe », « ville dans la ville », comme on le dit souvent, avec ses allées et ses rues, la Pitié-Salpêtrière est une mosaïque architecturale où les vieilles pierres côtoient les façades grisâtres des années 1970-1980 et le verre étincelant des constructions contemporaines. Debout face au panorama, dans son pyjama bleu, Alexandre Demoule, chef du service de réanimation médicale, désigne son ancien bureau, dans l’aile Montyon. « La peinture s’écaillait, les faux plafonds me tombaient dessus », se souvient-il.
-                Il l’a quitté juste à temps pour accueillir les premiers malades du Covid-19
-En Roumanie, au Royaume-Uni ou encore en Belgique, le nombre de contaminations ne cesse d'augmenter depuis plusieurs jours.
-Si en France, le gouvernement s'inquiète d'une petite poussée de l'épidémie de Covid-19, certains pays européens font eux face à une véritable flambée des contaminations. Dans une interview accordée à Libération ce mardi, le ministre de la Santé Olivier Véran a déclaré suivre ce rebond de l'épidémie de très près :
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="160dp"
+        android:text="Restaurant"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.596"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 
-Cette augmentation est un fait partout en Europe, peu surprenant puisque nous savons que les conditions climatiques se prêtent à la circulation des virus respiratoires.
-            L'est de l'Europe confronté à une nouvelle vague
-            Comme on peut le voir sur la carte ci-dessous, c'est avant tout l'est du Vieux continent qui est pour l'heure concerné par cette forte hausse des contaminations. Dans les trois pays baltes, le taux d'incidence est actuellement supérieur à 1000. En Roumanie, en Bulgarie, en Croatie ou encore en Slovénie, il est supérieur à 500.
 
-
-" />
-        </LinearLayout>
-    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
