@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Guide">
         <activity
+            android:name=".patisse"
+            android:exported="true" />
+        <activity
+            android:name=".roti"
+            android:exported="true" />
+        <activity
             android:name=".recette"
             android:exported="true" />
         <activity
