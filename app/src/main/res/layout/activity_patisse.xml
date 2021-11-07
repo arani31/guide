@@ -6,4 +6,138 @@
     android:layout_height="match_parent"
     tools:context=".patisse">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="serif"
+                android:text="Patisses"
+                android:textAlignment="center"
+                android:textSize="60sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="204dp"
+                app:srcCompat="@drawable/patties" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ingrédients:"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n-Pate brisée\n - 250 grammes de poisson en conserve (purée)\n
+-1 carotte (râpée)\n
+-350 grammes de pomme de terre (bouillie et écrasée)\n
+-1 cuillère à café de sel\n
+-3 piments verts (hachés)\n
+-1 oignon (haché)\n
+-3 ail (haché)\n
+-2 cuillères à café de poivre \n
+-2 cuillères à café de curry en poudre\n
+-1 cuillère à café de piment en poudre\n
+-4 feuilles de pandan (tranches minces de 2 cm)\n
+-8 feuilles de curry\n"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Etape 1:"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="137dp"
+                android:text="\n Chauffer l'huile dans une casserole à feu moyen. Une fois que l'huile est suffisamment chaude, ajoutez l'ail, l'oignon, les feuilles de curry et les feuilles de pandan dans la poêle et remuez rapidement. Ajouter la poudre de curry et la poudre de piment dans la poêle et faire frire le tout ensemble pendant environ 2 minutes."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nEtape 2:"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nIl est temps d'ajouter la purée de poisson en conserve dans la poêle, une fois que vous avez bien ajouté le poisson, mélangez. Cuire 2 minutes en remuant. Ajouter ensuite le poivre noir et bien mélanger. Maintenant, ajoutez la carotte râpée et remuez bien, poursuivez la cuisson encore 1 minute. Ajouter le piment vert dans la poêle et bien mélanger le tout. Enfin, ajoutez la purée de pommes de terre suivie du sel et mélangez bien, laissez cuire encore 2 minutes. Retirez-le du feu et laissez-le refroidir jusqu'à ce que la pâte soit prête.
+
+"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nEtape 3:"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nLorsque la pâte est prête, divisez-la en 2. Prendre un morceau et à l'aide du rouleau à pâte aplatir la pâte en une feuille fine (1 mm d'épaisseur). Découpez des cercles à l'aide d'un emporte-pièce (emporte-pièce d'environ 8cm de diamètre), recouvrez la feuille au maximum. Prenez un morceau de feuille de pâte coupée et placez une petite cuillerée du mélange de poisson sur un côté de la pâte. Assurez-vous d'enlever les feuilles de curry et les feuilles de pandan avant de remplir les galettes."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nEtape 4 :"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nÀ l'aide de votre doigt, peignez à l'eau le pourtour intérieur. Replier l'autre côté de la pâte, rouler et sertir les bords. Presser légèrement une fourchette sur le pourtour des galettes. Répétez le même processus pour les morceaux de pâte coupés restants. Utilisez chaque morceau de pâte pour faire des galettes (même le reste sur des tranches minces après avoir coupé des cercles. Vous pouvez les façonner en boule puis aplatir et couper).
+
+"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nEtape 5 :"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\Chauffer à feu doux à moyen une poêle à fond épais, remplie aux deux tiers d'huile. Lorsque l'huile est chaude et bouillonnante, faites frire les galettes pendant environ 5 minutes jusqu'à ce que les deux côtés soient brun clair. Une fois que les galettes commencent à brunir, retirez-les et placez les galettes frites sur une serviette en papier pour extraire l'huile supplémentaire. Servir chaud avec du ketchup aux tomates, bon appétit !"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

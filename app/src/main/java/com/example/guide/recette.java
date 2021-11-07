@@ -6,16 +6,18 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class recette extends AppCompatActivity {
-
+    ImageButton mroti;
+    ImageButton mpatisse;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recette);
-        Button mpatisse = findViewById(R.id.patisses);
-        Button mroti = findViewById(R.id.roti);
+       mroti = (ImageButton) findViewById(R.id.roti);
+        mpatisse =(ImageButton)findViewById(R.id.patisse);
 
         mpatisse.setOnClickListener(new View.OnClickListener() {
             @Override
