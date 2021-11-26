@@ -21,7 +21,7 @@ public class Cuisine extends AppCompatActivity {
        mrecette.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Cuisine.this, recette.class);
+                Intent intent = new Intent(Cuisine.this, restaurant.class);
                 startActivity(intent);
             }
         });
