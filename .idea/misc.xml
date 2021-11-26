@@ -8,15 +8,19 @@
         <entry key="..\:/Users/c-ara/AndroidStudioProjects/guide2/app/src/main/res/drawable/ciel.xml" value="0.17685185185185184" />
         <entry key="..\:/Users/c-ara/AndroidStudioProjects/guide2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1796875" />
         <entry key="..\:/Users/c-ara/AndroidStudioProjects/guide2/app/src/main/res/drawable/mondrawable.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/c-ara/AndroidStudioProjects/guide2/app/src/main/res/layout/activity_agenda.xml" value="0.1640625" />
         <entry key="..\:/Users/c-ara/AndroidStudioProjects/guide2/app/src/main/res/layout/activity_budget.xml" value="0.1" />
-        <entry key="..\:/Users/c-ara/AndroidStudioProjects/guide2/app/src/main/res/layout/activity_cuisine.xml" value="0.1" />
-        <entry key="..\:/Users/c-ara/AndroidStudioProjects/guide2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/c-ara/AndroidStudioProjects/guide2/app/src/main/res/layout/activity_cuisine.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/c-ara/AndroidStudioProjects/guide2/app/src/main/res/layout/activity_custom_list_view.xml" value="0.1640625" />
+        <entry key="..\:/Users/c-ara/AndroidStudioProjects/guide2/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/c-ara/AndroidStudioProjects/guide2/app/src/main/res/layout/activity_page2.xml" value="0.14634146341463414" />
-        <entry key="..\:/Users/c-ara/AndroidStudioProjects/guide2/app/src/main/res/layout/activity_patisse.xml" value="0.328125" />
+        <entry key="..\:/Users/c-ara/AndroidStudioProjects/guide2/app/src/main/res/layout/activity_patisse.xml" value="0.2135593220338983" />
         <entry key="..\:/Users/c-ara/AndroidStudioProjects/guide2/app/src/main/res/layout/activity_prix.xml" value="0.1640625" />
         <entry key="..\:/Users/c-ara/AndroidStudioProjects/guide2/app/src/main/res/layout/activity_recette.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/c-ara/AndroidStudioProjects/guide2/app/src/main/res/layout/activity_roti.xml" value="0.18064516129032257" />
+        <entry key="..\:/Users/c-ara/AndroidStudioProjects/guide2/app/src/main/res/layout/activity_restaurant.xml" value="0.1640625" />
+        <entry key="..\:/Users/c-ara/AndroidStudioProjects/guide2/app/src/main/res/layout/activity_roti.xml" value="0.2911275415896488" />
         <entry key="..\:/Users/c-ara/AndroidStudioProjects/guide2/app/src/main/res/layout/activity_visite.xml" value="0.1640625" />
+        <entry key="..\:/Users/c-ara/AndroidStudioProjects/guide2/app/src/main/res/layout/list_item.xml" value="0.22" />
         <entry key="..\:/Users/c-ara/AndroidStudioProjects/guide2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1796875" />
         <entry key="..\:/Users/c-ara/AndroidStudioProjects/guide2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1796875" />
       </map>
