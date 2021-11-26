@@ -19,13 +19,15 @@ public class restaurant extends AppCompatActivity {
         lieuxList = new ArrayList<>();
 
         Resources res =getResources();
-        String [] allLieux = res.getStringArray(R.array.nomduresto);
-        String [] alladress = res.getStringArray(R.array.adresseresto);
+        String [] allLieux = res.getStringArray(R.array.lieux );
+        String [] alladress = res.getStringArray(R.array.adresse);
         pupoluatelieuxList (allLieux ,alladress);
+
+
     }
     public void pupoluatelieuxList(String[] lieux, String [] adresse){
 
-        lieuxList.add(new lieux( lieux[0], adresse ))
+        lieuxList.add(new lieux( lieux[0], adresse[0],R.drawable.ocean ));
     }
 
 }

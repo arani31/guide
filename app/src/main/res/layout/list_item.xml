@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ocean" />
+
+    <TextView
+        android:id="@+id/titreresto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/image"
+        android:text="The Ocean, The Kingsbury"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        />
+
+    <TextView
+        android:id="@+id/adresse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titreresto"
+        android:layout_gravity="center"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/image"
+        android:text="48 Janadhipathi Mawatha,, Colombo Sri Lanka"
+        android:textSize="15sp" />
+
+</RelativeLayout>
