@@ -15,5 +15,11 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" />
     </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="174dp"
+        android:layout_height="142dp"
+        app:srcCompat="@drawable/boudha" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
