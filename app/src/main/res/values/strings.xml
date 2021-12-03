@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">Mon guide touristique</string>
-<string-array name="lieux">
-    <item>The Ocean, The Kingsbury </item>
+    <string-array name="lieux">
+        <item>The Ocean, The Kingsbury </item>
     </string-array>
 
     <string-array name="adresse">
 
-    <item>48 Janadhipathi Mawatha,, Colombo Sri Lanka    </item>
+        <item>48 Janadhipathi Mawatha,, Colombo Sri Lanka    </item>
     </string-array>
 
 </resources>

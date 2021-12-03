@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Guide">
         <activity
+            android:name=".visite"
+            android:exported="true" />
+        <activity
             android:name=".restaurant"
             android:exported="true" />
         <activity
@@ -20,9 +23,6 @@
             android:exported="true" />
         <activity
             android:name=".recette"
-            android:exported="true" />
-        <activity
-            android:name=".visite"
             android:exported="true" />
         <activity
             android:name=".prix"
