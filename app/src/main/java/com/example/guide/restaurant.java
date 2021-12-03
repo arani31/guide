@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.widget.ListView;
 
 import java.util.ArrayList;
 
@@ -23,11 +24,13 @@ public class restaurant extends AppCompatActivity {
         String [] alladress = res.getStringArray(R.array.adresse);
         pupoluatelieuxList (allLieux ,alladress);
 
-
+         LieuxAdapter adapter =new LieuxAdapter(getApplicationContext(), R.layout.list_item,lieuxList);
+    ListView listview =findViewById(R.id.lieux_list);
+    listview.setAdapter(adapter);
     }
     public void pupoluatelieuxList(String[] lieux, String [] adresse){
 
-        lieuxList.add(new lieux( lieux[0], adresse[0],R.drawable.ocean ));
+       lieuxList.add(new lieux( lieux[0], adresse[0],R.drawable.ocean ));
     }
 
 }

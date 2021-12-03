@@ -22,9 +22,6 @@
             android:name=".recette"
             android:exported="true" />
         <activity
-            android:name=".agenda"
-            android:exported="true" />
-        <activity
             android:name=".visite"
             android:exported="true" />
         <activity
