@@ -19,7 +19,6 @@ public class page2 extends AppCompatActivity {
         Button mbudget = findViewById(R.id.button6);
         Button mprix = findViewById(R.id.button7);
         Button mvisiter = findViewById(R.id.button8);
-        Button magenda = findViewById(R.id.button9);
 
 
         mcuisine.setOnClickListener(new View.OnClickListener() {
@@ -52,13 +51,8 @@ public class page2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        magenda.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(page2.this, agenda.class);
-                startActivity(intent);
-            }
-        });
+
+
     }
 
 }

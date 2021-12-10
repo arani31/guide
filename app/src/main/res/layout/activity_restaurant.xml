@@ -7,7 +7,7 @@
     tools:context=".restaurant">
 
     <ListView
-        android:id="@+id/lieux"
+        android:id="@+id/lieux_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="0dp" />
