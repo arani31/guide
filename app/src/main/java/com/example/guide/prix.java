@@ -5,13 +5,14 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.VideoView;
 
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.android.material.animation.AnimationUtils;
-
 public class prix extends AppCompatActivity {
+
+    private VideoView videoView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,7 @@ public class prix extends AppCompatActivity {
         Button bVH = findViewById(R.id.VH);
         Button bLoc = findViewById(R.id.Loc);
 
+        onResume();
         bLoc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -50,6 +52,7 @@ public class prix extends AppCompatActivity {
                 goToUrl("https://www.opodo.fr/vacances/");
             }
         });
+
     }
 
     private void goToUrl (String url) {

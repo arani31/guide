@@ -28,9 +28,6 @@ public class page2 extends AppCompatActivity {
             }
         });
 
-
-
-
         mprix.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
